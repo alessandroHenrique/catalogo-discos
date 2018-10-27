@@ -10,6 +10,9 @@ jobs:
       - run:
           name: Setup Dependencies
           command: npm install
+      - run:
+          name: Setup Dependencies of the react app
+          command: npm install --only=dev --no-shrinkwrap --prefix client
       - save_cache: # special step to save the dependency cache
           key: dependency-cache-{{ checksum "package.json" }}
           paths:
