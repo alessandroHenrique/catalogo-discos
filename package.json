@@ -1,0 +1,26 @@
+{
+  "name": "catalogo-discos",
+  "version": "1.0.0",
+  "description": "Aplicação de catálogo de discos utilizando Node.js, MySQL e React.js\r Você pode olhar o projeto deployado no heroku nesse link.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test --prefix client",
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix client",
+    "sass-compile": "sass client/src/styles/scss:client/src/styles/css --style compressed",
+    "sass-watch": "sass --watch client/src/styles/scss:client/src/styles/css --style compressed",
+    "dev": "concurrently \"npm run server\" \"npm run client\" \"npm run sass-watch\"",
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alessandroHenrique/catalogo-discos.git"
+  },
+  "author": "Alessandro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alessandroHenrique/catalogo-discos/issues"
+  },
+  "homepage": "https://github.com/alessandroHenrique/catalogo-discos#readme"
+}
