@@ -1,4 +1,7 @@
 # catalogo-discos
+[![License: MIT](https://img.shields.io/github/license/alessandroHenrique/catalogo-discos.svg)](LICENSE.txt)
+[![Build Status](https://circleci.com/gh/alessandroHenrique/catalogo-discos/tree/master.svg?style=shield)](https://circleci.com/gh/alessandroHenrique/catalogo-discos)
+
 Aplicação de catálogo de discos utilizando Node.js, MySQL e React.js
 Você pode olhar o projeto deployado no heroku nesse link.
 
