@@ -24,9 +24,17 @@
   },
   "homepage": "https://github.com/alessandroHenrique/catalogo-discos#readme",
   "dependencies": {
+    "axios": "^0.18.0",
     "express": "^4.16.4",
+    "joi": "^14.0.1",
+    "knex": "^0.15.2",
+    "mysql": "^2.16.0",
     "react": "^16.6.0",
-    "react-dom": "^16.6.0"
+    "react-dom": "^16.6.0",
+    "react-redux": "^5.1.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "uuid": "^3.3.2"
   },
   "devDependencies": {
     "concurrently": "^4.0.1",
