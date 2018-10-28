@@ -8,7 +8,7 @@ class AddDiscForm extends React.Component {
   }
 
   static propTypes = {
-    handleAddCollection: PropTypes.func.isRequired
+    handleAddDisc: PropTypes.func.isRequired
   }
 
   handleTitleChange = (e) => {
