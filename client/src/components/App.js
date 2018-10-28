@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header';
+import CollectionForm from './CollectionForm';
 
 class App extends Component {
   render() {
@@ -7,6 +8,7 @@ class App extends Component {
       <div>
         <Header />
         <div className="container">
+          <CollectionForm />
         </div>
       </div>
     );
