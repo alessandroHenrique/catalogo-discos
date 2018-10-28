@@ -36,6 +36,9 @@ exports[`renders without crashing 1`] = `
         Add Collection
       </button>
     </form>
+    <ul
+      className="list-group list-unstyled"
+    />
   </div>
 </div>
 `;
