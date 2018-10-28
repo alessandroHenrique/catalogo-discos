@@ -1,0 +1,47 @@
+// Add option
+.add-option {
+  color: white;
+  display: flex;
+  padding: $s-size;
+  flex-direction: row;
+  width: 65%;
+  margin: auto;
+
+  &.add-disc-form {
+    div.form-group {
+      margin-bottom: 2rem;
+    }
+
+    label {
+      display: block;
+    }
+
+    width: 100%;
+  }
+}
+
+.add-option__label {
+  display: block;
+}
+
+.add-option__input {
+  background: $blue;
+  border: none;
+  border-bottom: .3rem solid darken($dark-blue, 10%);
+  color: $off-white;
+  flex-grow: 1;
+  font-size: 1.5rem;
+  margin-right: $s-size;
+  padding: 0.8rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+
+  &.search {
+    flex-grow: 0;
+    margin-right: 0;
+  }
+
+  &.edit-disc {
+    width: 100%;
+  }
+}
