@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddCollectionForm should render add collection form 1`] = `
+<form
+  className="add-option"
+  onSubmit={[Function]}
+>
+  <input
+    className="add-option__input"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+  <button
+    className="button btn-secondary no-hover"
+    disabled={true}
+    type="submit"
+  >
+    Add Collection
+  </button>
+</form>
+`;

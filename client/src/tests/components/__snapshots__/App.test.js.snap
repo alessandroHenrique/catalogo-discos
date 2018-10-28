@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div>
+  <div
+    className="header"
+  >
+    <div
+      className="container"
+    >
+      <h1
+        className="header__title"
+      >
+        Collection App
+      </h1>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <form
+      className="add-option"
+      onSubmit={[Function]}
+    >
+      <input
+        className="add-option__input"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <button
+        className="button btn-secondary no-hover"
+        disabled={true}
+        type="submit"
+      >
+        Add Collection
+      </button>
+    </form>
+  </div>
+</div>
+`;
