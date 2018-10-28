@@ -3,9 +3,15 @@ import ReactDOM from 'react-dom';
 import './styles/css/index.css';
 import App from './components/App';
 import * as serviceWorker from './serviceWorker';
+import Store from './store/configureStore';
+import { Provider } from 'react-redux';
+
+const store = Store();
 
 ReactDOM.render(
-  <App />,
+  <Provider store={store}>
+    <App />
+  </Provider>,
   document.getElementById('root')
 );
 
