@@ -6,7 +6,7 @@ import uuid from 'uuid';
 const CollectionList = ({ collections, deleteCollection, updateCollection }) => (
   <ul className="list-group list-unstyled">
     {
-      collections.map((collection) => (
+      collections && collections.map((collection) => (
         <Collection
           key={uuid()}
           title={collection.title}
