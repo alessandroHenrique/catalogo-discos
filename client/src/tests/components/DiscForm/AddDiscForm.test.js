@@ -8,7 +8,7 @@ describe('DiscForm', () => {
 
     const component = renderer.create(
       <DiscForm
-        handleAddCollection={() => {}}
+        handleAddDisc={() => {}}
       />);
     const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
