@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DiscForm should render add disc form 1`] = `
+<form
+  className="add-option text-left align-items-center add-disc-form justify-content-center"
+  onSubmit={[Function]}
+>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="title"
+    >
+      Título
+    </label>
+    <input
+      className="add-option__input"
+      id="title"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="author"
+    >
+      Autor
+    </label>
+    <input
+      className="add-option__input"
+      id="author"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </div>
+  <button
+    className="button"
+    type="submit"
+  >
+    Add Disc
+  </button>
+</form>
+`;
