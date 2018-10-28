@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DiscList should render a DiscList 1`] = `
+<ul
+  className="list-group d-flex flex-row flex-wrap justify-content-between"
+/>
+`;

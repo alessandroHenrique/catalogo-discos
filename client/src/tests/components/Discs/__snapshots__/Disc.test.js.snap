@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Disc should render a Disc 1`] = `
+<li
+  className="p-2"
+  style={
+    Object {
+      "display": "inline-block",
+    }
+  }
+>
+  <div
+    className="card mt-4 disc-widget text-left"
+    style={
+      Object {
+        "display": "inline-block",
+        "width": "18rem",
+      }
+    }
+  >
+    <div
+      className="card-header disc-widget-header"
+    >
+      <h5>
+        <span>
+          Disco: 
+          title
+        </span>
+      </h5>
+    </div>
+    <div
+      className="card-body"
+    >
+      <h6
+        className="card-subtitle mb-2"
+      >
+        <span>
+          Autor: 
+          author
+        </span>
+      </h6>
+      <button
+        className="btn btn-primary mr-2"
+        onClick={[Function]}
+      >
+        Edit
+      </button>
+      <button
+        className="btn btn-danger"
+        onClick={[Function]}
+      >
+        Delete
+      </button>
+    </div>
+  </div>
+</li>
+`;
