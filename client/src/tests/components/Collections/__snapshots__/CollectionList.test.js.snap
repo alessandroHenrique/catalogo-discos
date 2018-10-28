@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CollectionList should render a CollectionList 1`] = `
+<ul
+  className="list-group list-unstyled"
+/>
+`;

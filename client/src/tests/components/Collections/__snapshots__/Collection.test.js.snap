@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Collection should render a Collection 1`] = `
+<li
+  className="mt-5 text-center px-0"
+>
+  <div
+    className="card widget"
+  >
+    <div
+      className="card-header widget-header d-flex"
+    >
+      <h4
+        className="mr-auto"
+      >
+        Coleção: 
+        <span>
+          title
+        </span>
+        <button
+          className="btn ml-2 mr-2 btn-primary"
+          disabled={false}
+          onClick={[Function]}
+        >
+          Edit
+        </button>
+        <button
+          className="btn btn-danger"
+          onClick={[Function]}
+        >
+          Delete
+        </button>
+      </h4>
+      <input
+        className="add-option__input search"
+        onChange={[Function]}
+        placeholder="Search Disc"
+        type="text"
+        value=""
+      />
+      <i
+        className="fa fa-search fa-2x"
+      />
+    </div>
+    <div
+      className="card-body"
+    >
+      <span
+        className="widget__message"
+      >
+        Adicione algum disco!
+      </span>
+    </div>
+    <form
+      className="add-option text-left align-items-center add-disc-form justify-content-center"
+      onSubmit={[Function]}
+    >
+      <div
+        className="form-group"
+      >
+        <label
+          htmlFor="title"
+        >
+          Título
+        </label>
+        <input
+          className="add-option__input"
+          id="title"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          htmlFor="author"
+        >
+          Autor
+        </label>
+        <input
+          className="add-option__input"
+          id="author"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <button
+        className="button"
+        type="submit"
+      >
+        Add Disc
+      </button>
+    </form>
+  </div>
+</li>
+`;
