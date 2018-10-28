@@ -1,4 +1,4 @@
-import DiscApi from '../../../api/discs';
+import DiscApi from '../../api/discs';
 import axios from 'axios';
 import MockAdapter from 'axios-mock-adapter';
 
