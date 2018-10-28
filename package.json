@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/alessandroHenrique/catalogo-discos/issues"
   },
-  "homepage": "https://github.com/alessandroHenrique/catalogo-discos#readme"
+  "homepage": "https://github.com/alessandroHenrique/catalogo-discos#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
