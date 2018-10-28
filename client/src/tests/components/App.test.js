@@ -10,7 +10,7 @@ const store = Store();
 it('renders without crashing', () => {
   const component = renderer.create(
     <Provider store={store}>
-      <App />
+      <App fetchCollections={() => {}} />
     </Provider>
     );
   const tree = component.toJSON();
