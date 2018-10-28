@@ -37,6 +37,7 @@
     "uuid": "^3.3.2"
   },
   "devDependencies": {
+    "axios-mock-adapter": "^1.15.0",
     "concurrently": "^4.0.1",
     "react-test-renderer": "^16.6.0"
   }
