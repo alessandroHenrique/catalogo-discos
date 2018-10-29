@@ -49,7 +49,7 @@ class Disc extends React.Component {
             <h5>{this.state.isEditing ? <input className="add-option__input edit-disc" type="text" onChange={this.handleTitleChange} value={this.state.titleInput} /> : <span>Disco: {this.state.titleInput}</span>}</h5>
           </div>
           <div className="card-body">
-            <h6 className="card-subtitle mb-2">{this.state.isEditing ? <input className="add-option__input edit-disc" type="text" onChange={this.handleAuthorChange} value={this.state.authorInput} /> : <span>Autor: {this.state.authorInput}</span>}</h6>
+            <h6 className="card-subtitle mb-4 mt-1">{this.state.isEditing ? <input className="add-option__input edit-disc" type="text" onChange={this.handleAuthorChange} value={this.state.authorInput} /> : <span>Autor: {this.state.authorInput}</span>}</h6>
             <button onClick={this.changeIsEditing} className="btn btn-primary mr-2">{this.state.isEditing ? 'Save' : 'Edit'}</button>
             <button className="btn btn-danger" onClick={() => this.props.deleteDisc()}>Delete</button>
           </div>
