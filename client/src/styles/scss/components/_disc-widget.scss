@@ -1,0 +1,18 @@
+.disc-widget {
+  background: $blue;
+  margin-bottom: $xl-size;
+  color: white;
+}
+
+// Widget Header
+.disc-widget-header {
+  background: $purple;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: $s-size;
+}
+
+.disc-widget-header__title {
+  margin: 0;
+}
