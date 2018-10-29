@@ -32,7 +32,7 @@ exports[`Disc should render a Disc 1`] = `
       className="card-body"
     >
       <h6
-        className="card-subtitle mb-2"
+        className="card-subtitle mb-4 mt-1"
       >
         <span>
           Autor: 
