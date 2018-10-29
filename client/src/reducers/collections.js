@@ -39,7 +39,7 @@ const collectionsReducer = (state = initialState, action) => {
       ];
     case ADD_DISC:
       return state.map((collection) => {
-        if (collection.id === action.disc.disc_collection_id) {
+        if (collection.id === action.disc.collection_id) {
           collection.discs.push(action.disc);
         }
         return collection;
@@ -53,7 +53,7 @@ const collectionsReducer = (state = initialState, action) => {
       });
     case EDIT_DISC:
       return state.map((collection) => {
-        if (collection.id === action.disc.disc_collection_id) {
+        if (collection.id === action.disc.collection_id) {
           collection.discs = collection.discs.map((disc) => disc.id === action.disc.id ? action.disc : disc)
         }
         return collection;

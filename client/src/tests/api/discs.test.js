@@ -10,7 +10,7 @@ describe('Test all discs endpoints', () => {
       id: 1,
       title: 'Strange Trails',
       author: 'Lord Huron',
-      disc_collection_id: 1
+      collection_id: 1
     }
 
     mock.onPost('/api/discs').reply(201, {
@@ -27,7 +27,7 @@ describe('Test all discs endpoints', () => {
       id: 1,
       title: 'Strange Trails',
       author: 'Lord Huron',
-      disc_collection_id: 1
+      collection_id: 1
     }
     mock.onPut(`/api/discs/${updatedDisc.id}`).reply(201, {
       data: updatedDisc

@@ -15,7 +15,7 @@ describe('Tests for each disc action', () => {
       id: 1,
       title: 'Strange Trails',
       author: 'Lord Huron',
-      disc_collection_id: 1
+      collection_id: 1
     }
 
     const result = addDiscSuccess(disc);
@@ -30,7 +30,7 @@ describe('Tests for each disc action', () => {
       id: 1,
       title: 'Strange Trails',
       author: 'Lord Huron',
-      disc_collection_id: 1
+      collection_id: 1
     }
 
     const result = updateDiscSuccess(disc);

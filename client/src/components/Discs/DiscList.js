@@ -17,8 +17,8 @@ class DiscList extends React.Component {
               title={disc.title}
               author={disc.author}
               key={uuid()}
-              deleteDisc={() => this.props.deleteDisc(disc.id, disc.disc_collection_id)}
-              updateDisc={(newInfo) => this.props.updateDisc({...newInfo, id: disc.id, disc_collection_id: disc.disc_collection_id})}
+              deleteDisc={() => this.props.deleteDisc(disc.id, disc.collection_id)}
+              updateDisc={(newInfo) => this.props.updateDisc({...newInfo, id: disc.id, collection_id: disc.collection_id})}
             />
           ))
         }

@@ -84,7 +84,7 @@ describe('Tests for the discs action type', () => {
       id: 1,
       title: 'Strange Trails',
       author: 'Lord Huron',
-      disc_collection_id: 1
+      collection_id: 1
     }
     const collection = {
       id: 1,
@@ -105,7 +105,7 @@ describe('Tests for the discs action type', () => {
       id: 1,
       title: 'Strange Trails',
       author: 'Lord Huron',
-      disc_collection_id: 1
+      collection_id: 1
     }
     const collection = {
       id: 1,
@@ -132,7 +132,7 @@ describe('Tests for the discs action type', () => {
       id: 1,
       title: 'Strange Trails',
       author: 'Lord Huron',
-      disc_collection_id: 1
+      collection_id: 1
     }
     const collection = {
       id: 1,

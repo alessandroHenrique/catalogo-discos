@@ -30,7 +30,7 @@ class AddDiscForm extends React.Component {
     this.props.handleAddDisc({
       title: this.state.titleInput,
       author: this.state.authorInput,
-      disc_collection_id: this.props.collectionId
+      collection_id: this.props.collectionId
     });
     this.setState(() => ({
       titleInput: '',

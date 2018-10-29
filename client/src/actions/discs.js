@@ -37,10 +37,10 @@ export const deleteDiscSuccess = (id, collectionId) => ({
   collectionId
 });
 
-export const deleteDisc = (id, disc_collection_id) => {
+export const deleteDisc = (id, collection_id) => {
   return (dispatch, getState) => {
     return DiscApi.deleteDisc(id).then((id) => {
-      return dispatch(deleteDiscSuccess(id, disc_collection_id));
+      return dispatch(deleteDiscSuccess(id, collection_id));
     });
   };
 };
