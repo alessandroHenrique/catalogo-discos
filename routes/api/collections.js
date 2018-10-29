@@ -28,10 +28,14 @@ router.post('/', (req, res) => {
   });
 });
 
-router.get('/:id', (req, res) => {
-  db('collection').where({id: req.params.id}).select().then((data) => {
-    res.send(data);
-  });
+router.get('/:id', async (req, res) => {
+  const collection = await db('collection').where({id: req.params.id}).select();
+  const discs = await db('disc').where({collection_id: req.params.id}).select();
+
+  if (discs) {
+    collection[0].discs = discs;
+  }
+  res.send(collection);
 });
 
 router.delete('/:id', (req, res) => {
